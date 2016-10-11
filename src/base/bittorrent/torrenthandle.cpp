@@ -72,7 +72,7 @@ using namespace BitTorrent;
 AddTorrentData::AddTorrentData()
     : resumed(false)
     , disableTempPath(false)
-    , sequential(false)
+    , sequential(true)
     , hasSeedStatus(false)
     , skipChecking(false)
     , ratioLimit(TorrentHandle::USE_GLOBAL_RATIO)
