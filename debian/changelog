@@ -1,4 +1,4 @@
-qbittorrent (3.3.11-1) UNRELEASED; urgency=medium
+qbittorrent (3.3.11-6) UNRELEASED; urgency=medium
 
   * This build uses Qt4 instead of Qt5 to get acceptable performance in
     X2Go sessions, at least when using QT_GRAPHICSSYSTEM=native
